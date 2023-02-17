@@ -49,7 +49,7 @@ public class Main {
     public void loop(){
         while (window.isOpen()){
             window.update();
-            glClearColor(0.70f,0.0f,1.0f,1.0f); // RapidTables.com (RGB color code chart)
+            glClearColor(0.0f,0.0f,0.0f,0.0f); // RapidTables.com (RGB color code chart)
             GL.createCapabilities();
             for (Object2D object2d : objects)
             {
